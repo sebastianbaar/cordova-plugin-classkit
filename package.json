@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-classkit",
+  "version": "1.0.0",
+  "description": "Cordova plugin for using Apple's ClassKit framework.",
+  "cordova": {
+    "id": "cordova-plugin-classkit",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebastianbaar/cordova-plugin-classkit.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "classkit",
+    "schoolwork"
+  ],
+  "author": "Sebastian Baar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastianbaar/cordova-plugin-classkit/issues"
+  },
+  "homepage": "https://github.com/sebastianbaar/cordova-plugin-classkit#readme"
+}

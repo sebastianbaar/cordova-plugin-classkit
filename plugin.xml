@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-classkit" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>Cordova ClassKit Plugin</name>
+    <description>Cordova plugin for using Apple's ClassKit framework.</description>
+    <license>MIT</license>
+    <keywords>classkit,ios,schoolwork,education</keywords>
+    <repo>https://github.com/sebastianbaar/cordova-plugin-classkit.git</repo>
+    <issue>https://github.com/sebastianbaar/cordova-plugin-classkit/issues</issue>
+
+    <js-module name="CordovaClassKit" src="www/CordovaClassKit.js">
+        <clobbers target="CordovaClassKit" />
+    </js-module>
+    
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="CordovaClassKit">
+                <param name="ios-package" value="CordovaClassKit" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/CCK-Bridging-Header.h" />
+        <source-file src="src/ios/CCKApi.swift" />
+        <source-file src="src/ios/CCKContextParser.swift" />
+        <resource-file src="config/CCK-contexts.xml" />
+        <framework src="ClassKit.framework" />
+
+        <dependency id="cordova-plugin-add-swift-support" version="1.7.2"/>
+    </platform>
+
+</plugin>
