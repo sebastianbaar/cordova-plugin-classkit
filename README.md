@@ -2,6 +2,8 @@
 
 Plugin to use Apple's [ClassKit](https://developer.apple.com/documentation/classkit/) framework in your Cordova apps. Manage and create [Contexts](https://developer.apple.com/documentation/classkit/advertising_your_app_s_assignable_content) and [Activities](https://developer.apple.com/documentation/classkit/recording_student_progress) and add [Activity Items](https://developer.apple.com/documentation/classkit/recording_additional_metrics_about_a_completed_task) to track the student's progress within the [Schoolwork](https://itunes.apple.com/us/app/schoolwork/id1355112526?ls=1&mt=8) App.
 
+**This plugin is also available for [Ionic Native](https://ionicframework.com/docs/native/class-kit/)**.
+
 - [Prerequisites]()
 - [Supported Platform(s)]()
 - [Installation]()
